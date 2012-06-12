@@ -20,6 +20,7 @@ if __name__ == '__main__':
         url = 'https://github.com/tryolabs/django-reporting',
         keywords = "django reporting report model models",
         license = 'LGPL',
+        package_dir={'reporting': 'reporting'},
         packages = (
             'reporting',
         ),
